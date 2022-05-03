@@ -1,4 +1,4 @@
 import { ActionGenerator } from './actions';
-import RpcApi from './api';
+import ChainApi from './api/chain';
 
-export { ActionGenerator, RpcApi };
+export { ActionGenerator, ChainApi };

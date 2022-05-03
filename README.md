@@ -21,12 +21,12 @@ Web library can be found in the [dist] folder.
 const { ActionGenerator, RpcApi } = require("newcoinfarm");
 
 // ES6 import
-import { ActionGenerator, RpcApi } from "newcoinfarm"
+import { ActionGenerator, RpcApi } from "newcoinfarm";
 ```
 
 ## Documentation
 
-### RpcApi
+### ChainApi
 
 Uses only native nodeos calls to chain api plugin.
 
