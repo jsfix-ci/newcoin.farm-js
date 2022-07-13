@@ -1,8 +1,12 @@
 {
   "name": "@newcoin-foundation/newcoin.farm-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build:npm": "tsc",
     "build:web": "webpack --config webpack.prod.js",

@@ -1,6 +1,6 @@
 import { doesNotMatch } from "assert";
 import { expect } from "chai";
-import ChainApi from "../../src/api/chain";
+import { ChainApi } from "../../src/api";
 import {
   GetCurrencyStats,
   GetCurrencyBalance,
